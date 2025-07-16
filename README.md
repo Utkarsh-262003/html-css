@@ -1,1 +1,1 @@
-html_css tutorial code and practise
+html_css tutorial code and practice
