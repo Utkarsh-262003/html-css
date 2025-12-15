@@ -1,0 +1,70 @@
+<button class="sub-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-btn">
+  JOIN
+</button>
+
+<button class="tweet-btn">
+  Tweet
+</button>
+
+
+<style>
+  .sub-button{
+    background-color: rgba(200, 0, 0, 0.829);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .sub-button:hover{
+    /* pseudo class */
+    opacity: 0.8;
+  }
+  .sub-button:active{
+    opacity: 0.6 ;
+  }
+
+  .join-btn{
+    background-color: white;
+    color: rgb(43, 105, 198);
+    border-style: solid;
+    border-color: rgb(43, 105, 198);
+    height: 36px;
+    width: 65px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-width: 2px;
+    margin-left: 10px;
+    transition: color 0.15s , background-color 0.15s;
+  }
+  .join-btn:hover{
+    color: white ;
+    background-color: rgb(43, 105, 198);
+
+  }
+  .join-btn:active{
+    opacity: 0.8;
+  }
+  .tweet-btn{
+    background-color: rgb(63, 132, 237);
+    color: white;
+    height: 36px;
+    border: none;
+    width: 80px;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+  }
+  .tweet-btn:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  }
+</style>
